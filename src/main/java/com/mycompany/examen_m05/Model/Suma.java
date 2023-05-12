@@ -9,5 +9,8 @@ package com.mycompany.examen_m05.Model;
  * @author Felipe
  */
 public class Suma {
-    
+        public int Sumar(int numero1, int numero2){
+        int resultado = numero1 + numero2;
+        return resultado;
+    }
 }
