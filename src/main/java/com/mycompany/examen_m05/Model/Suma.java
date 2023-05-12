@@ -10,7 +10,7 @@ package com.mycompany.examen_m05.Model;
  */
 public class Suma {
         public int Sumar(int numero1, int numero2){
-        int resultado = numero1 + numero2;
+        int resultado = numero1;
         return resultado;
     }
 }
