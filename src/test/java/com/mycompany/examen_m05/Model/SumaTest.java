@@ -19,13 +19,6 @@ public class SumaTest {
     Suma suma;
 
     
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
     
     @Before
     public void setUp() {
@@ -33,9 +26,7 @@ public class SumaTest {
         suma = new Suma();
     }
     
-    @After
-    public void tearDown() {
-    }
+
 
     @Test
     public void testSumar() {
