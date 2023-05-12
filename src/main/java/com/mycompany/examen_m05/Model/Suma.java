@@ -9,8 +9,12 @@ package com.mycompany.examen_m05.Model;
  * @author Felipe
  */
 public class Suma {
-        public int Sumar(int numero1, int numero2){
-        int resultado = numero1;
+        public int SumarValorAbsoluto(int numero1, int numero2){
+        int numero1absoluto = Math.abs(numero1);
+        int numero2absoluto = Math.abs(numero2);
+        int resultado = numero1absoluto + numero2absoluto;
+
+        
         return resultado;
     }
 }
